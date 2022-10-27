@@ -14,17 +14,18 @@ class CustomProfileAppBar extends StatelessWidget {
       title: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Padding(
-            padding: const EdgeInsets.all(3.0),
-            child: Icon(
-              Icons.https_outlined,
-              size: 18,
-            ),
-          ),
           Text(
             "heyfins_",
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),
-          )
+          ),
+          Padding(
+            padding: const EdgeInsets.all(3.0),
+            child: Icon(
+              Icons.check_circle_sharp,
+              color: Colors.blue,
+              size: 18,
+            ),
+          ),
         ],
       ),
       actions: [

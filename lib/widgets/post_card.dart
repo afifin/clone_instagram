@@ -85,7 +85,7 @@ class Postcard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "${post.totalLikes} likes",
+                  "${post.totalLikes} Suka",
                   style: TextStyle(
                       color: Colors.black,
                       fontSize: 15,
@@ -108,7 +108,7 @@ class Postcard extends StatelessWidget {
                 SizedBox(
                   height: 5,
                 ),
-                Text("View all ${post.totalComments} comment"),
+                Text("Lihat semua ${post.totalComments} komen"),
                 SizedBox(
                   height: 5,
                 ),

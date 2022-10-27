@@ -25,15 +25,15 @@ class _ProfileHeaderState extends State<ProfileHeader> {
             SizedBox(width: 8),
             ProfileLabelCountWidget(
               count: "140",
-              labelText: "Posts",
+              labelText: "Postingan",
             ),
             ProfileLabelCountWidget(
-              count: "440",
-              labelText: "Followers",
+              count: "440k",
+              labelText: "Pengikut",
             ),
             ProfileLabelCountWidget(
-              count: "540",
-              labelText: "Following",
+              count: "54",
+              labelText: "Diikuti",
             ),
           ]),
         ),
@@ -98,13 +98,13 @@ class _ProfileHeaderState extends State<ProfileHeader> {
             })
           },
           title: Text(
-            "Story Highlights",
+            "cerita anda",
             style: TextStyle(
                 fontSize: 14, fontWeight: FontWeight.w600, color: Colors.black),
           ),
           subtitle: _isExpansionTileOpen
               ? Text(
-                  "Keep Your Favorite Stories on Your Profile",
+                  "cerita kenangan dari anda",
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 13.5,
