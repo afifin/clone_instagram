@@ -23,25 +23,25 @@ class ProfilePage extends StatelessWidget {
                 child: ProfileHeader(),
               ),
             ),
-            // SliverPersistentHeader(
-            //     pinned: true,
-            //     delegate: PersistentHeader(
-            //         child: TabBar(
-            //           tabs: [
-            //             Tab(
-            //               icon: Icon(
-            //                 Icons.grid_on,
-            //               ),
-            //             ),
-            //             Tab(
-            //               icon: Icon(
-            //                 Icons.assignment_ind_outlined,
-            //               ),
-            //             )
-            //           ],
-            //         ),
-            //         mxExtent: 50,
-            //         mnExtent: 50))
+            SliverPersistentHeader(
+                pinned: true,
+                delegate: PersistentHeader(
+                    child: TabBar(
+                      tabs: [
+                        Tab(
+                          icon: Icon(
+                            Icons.grid_on,
+                          ),
+                        ),
+                        Tab(
+                          icon: Icon(
+                            Icons.assignment_ind_outlined,
+                          ),
+                        )
+                      ],
+                    ),
+                    mxExtent: 50,
+                    mnExtent: 50))
           ];
         },
         body: TabBarView(children: [
